@@ -46,14 +46,9 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" id="homeDropdown" role="button" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link" href="{{ route('homepage') }}">
                                         Home
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="homeDropdown">
-                                        <a class="dropdown-item" href="index.html">Home Page 01</a>
-                                        <a class="dropdown-item" href="index-2.html">Home Page 02</a>
-                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">About Us</a>
@@ -102,7 +97,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="{{ route('contact.create') }}">Contact</a>
                                 </li>
                             </ul>
                         </div>
