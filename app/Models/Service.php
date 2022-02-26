@@ -13,12 +13,13 @@ class Service extends Model
     public static function seed()
     {
         $services = [
-            ['name' => 'Construction'],
-            ['name' => 'Design'],
+            ['name' => 'Site Construction'],
+            ['name' => 'Interior Design'],
+            ['name' => 'Architectural Designs'],
         ];
 
         foreach ($services as $key => $service) {
-            if(self::where('name','LIKE',$service['name'])->count() === 0 ){
+            if (self::where('name', 'LIKE', $service['name'])->count() === 0) {
                 self::create($service);
             }
         }
