@@ -57,34 +57,17 @@ Contact Us
                 <div class="address-area">
                     <div class="single-box">
                         <div class="title">
-                            <h3>Address-1</h3>
+                            <h3>Address</h3>
                         </div>
                         <div class="details">
                             <ul>
-                                <li><span><i class="icofont-clock-time"></i></span>12:05 AM 07:10 PM</li>
-                                <li><span><i class="icofont-ui-call"></i></span>+8865 6344 2988</li>
-                                <li><span><i class="icofont-email"></i></span><a
-                                        href="https://athemeart.dev/cdn-cgi/l/email-protection" class="__cf_email__"
-                                        data-cfemail="45282c3c2a35052a35312a2b292c2b206b2b2031">[email&nbsp;protected]</a>
+                                <li><span><i class="icofont-clock-time"></i></span>{{ $settings['officeTime'] }}</li>
+                                <li><span><i class="icofont-ui-call"></i></span>{{ $settings['phone'] }}</li>
+                                <li><span><i class="icofont-email"></i></span><a href="mailto:{{ $settings['email'] }}"
+                                        class="__cf_email__" data-cfemail="45282c3c2a35052a35312a2b292c2b206b2b2031">{{
+                                        $settings['email'] }}</a>
                                 </li>
-                                <li><span><i class="icofont-google-map"></i></span> 5689 Tampines St 4452 Tampines, USA.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="single-box two">
-                        <div class="title">
-                            <h3>Address-2</h3>
-                        </div>
-                        <div class="details">
-                            <ul>
-                                <li><span><i class="icofont-clock-time"></i></span>12:05 AM 07:10 PM</li>
-                                <li><span><i class="icofont-ui-call"></i></span>+8865 6344 2988</li>
-                                <li><span><i class="icofont-email"></i></span><a
-                                        href="https://athemeart.dev/cdn-cgi/l/email-protection" class="__cf_email__"
-                                        data-cfemail="127f7b6b7d62527d62667d7c7e7b7c773c7c7766">[email&nbsp;protected]</a>
-                                </li>
-                                <li><span><i class="icofont-google-map"></i></span> 5689 Tampines St 4452 Tampines, USA.
+                                <li><span><i class="icofont-google-map"></i></span> {{ $settings['officeAddress'] }}
                                 </li>
                             </ul>
                         </div>
