@@ -25,14 +25,14 @@ About Us
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-6 col-md-8">
                 <div class="part-img">
-                    <img src="assets/images/about-img-3.png" alt="image">
+                    <img src="{{ asset('web/assets/images/about-img-3.png') }}" alt="image">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-10 d-xl-flex d-lg-flex align-items-center">
                 <div class="part-txt">
                     <div class="title">
                         <h4>ABOUT US</h4>
-                        <h2>We have <span>5</span> years of experience, you can trust montion construction.</h2>
+                        <h2>We have <span>5</span> years of experience, you can trust @company</h2>
                     </div>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorei has been the
                         industry's standard dummy text ever since the when dumm printer took a galley of type and
@@ -40,7 +40,7 @@ About Us
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorei has been the
                         industry's standard dummy text ever since the when dumm printer took a galley of type and
                         scrambled.</p>
-                    <a href="about.html" class="def-btn">Read More <i class="icofont-double-right"></i></a>
+                    <a href="{{ route('about') }}" class="def-btn">Read More <i class="icofont-double-right"></i></a>
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@ About Us
             <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
                 <div class="single-box">
                     <div class="part-img">
-                        <img src="assets/images/team-1.jpg" alt="image">
+                        <img src="{{ asset('web/assets/images/team-1.jpg') }}" alt="image">
                     </div>
                     <div class="part-txt">
                         <div class="social">
@@ -165,7 +165,7 @@ About Us
             <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
                 <div class="single-box">
                     <div class="part-img">
-                        <img src="assets/images/team-2.jpg" alt="image">
+                        <img src="{{ asset('web/assets/images/team-2.jpg') }}" alt="image">
                     </div>
                     <div class="part-txt">
                         <div class="social">
@@ -181,7 +181,7 @@ About Us
             <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
                 <div class="single-box">
                     <div class="part-img">
-                        <img src="assets/images/team-3.jpg" alt="image">
+                        <img src="{{ asset('web/assets/images/team-3.jpg') }}" alt="image">
                     </div>
                     <div class="part-txt">
                         <div class="social">
@@ -197,7 +197,7 @@ About Us
             <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
                 <div class="single-box">
                     <div class="part-img">
-                        <img src="assets/images/team-4.jpg" alt="image">
+                        <img src="web/assets/images/team-4.jpg" alt="image">
                     </div>
                     <div class="part-txt">
                         <div class="social">
@@ -236,7 +236,7 @@ About Us
                             <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
                                 <div class="single-comment">
                                     <div class="part-img">
-                                        <img src="assets/images/client-4.jpg" alt="image">
+                                        <img src="web/assets/images/client-4.jpg" alt="image">
                                     </div>
                                     <div class="part-txt">
                                         <p>Lorem Ipsu is siply dmmyt pring been text industry standard dummy text ever
@@ -249,7 +249,7 @@ About Us
                             <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
                                 <div class="single-comment">
                                     <div class="part-img">
-                                        <img src="assets/images/client-5.jpg" alt="image">
+                                        <img src="web/assets/images/client-5.jpg" alt="image">
                                     </div>
                                     <div class="part-txt">
                                         <p>Lorem Ipsu is siply dmmyt pring been text industry standard dummy text ever
@@ -262,7 +262,7 @@ About Us
                             <div class="owl-item cloned active" style="width: 370px; margin-right: 30px;">
                                 <div class="single-comment">
                                     <div class="part-img">
-                                        <img src="assets/images/client-6.jpg" alt="image">
+                                        <img src="web/assets/images/client-6.jpg" alt="image">
                                     </div>
                                     <div class="part-txt">
                                         <p>Lorem Ipsu is siply dmmyt pring been text industry standard dummy text ever
@@ -275,7 +275,7 @@ About Us
                             <div class="owl-item active center" style="width: 370px; margin-right: 30px;">
                                 <div class="single-comment">
                                     <div class="part-img">
-                                        <img src="assets/images/client-4.jpg" alt="image">
+                                        <img src="web/assets/images/client-4.jpg" alt="image">
                                     </div>
                                     <div class="part-txt">
                                         <p>Lorem Ipsu is siply dmmyt pring been text industry standard dummy text ever
@@ -288,7 +288,7 @@ About Us
                             <div class="owl-item active" style="width: 370px; margin-right: 30px;">
                                 <div class="single-comment">
                                     <div class="part-img">
-                                        <img src="assets/images/client-5.jpg" alt="image">
+                                        <img src="web/assets/images/client-5.jpg" alt="image">
                                     </div>
                                     <div class="part-txt">
                                         <p>Lorem Ipsu is siply dmmyt pring been text industry standard dummy text ever
@@ -301,7 +301,7 @@ About Us
                             <div class="owl-item" style="width: 370px; margin-right: 30px;">
                                 <div class="single-comment">
                                     <div class="part-img">
-                                        <img src="assets/images/client-6.jpg" alt="image">
+                                        <img src="web/assets/images/client-6.jpg" alt="image">
                                     </div>
                                     <div class="part-txt">
                                         <p>Lorem Ipsu is siply dmmyt pring been text industry standard dummy text ever
@@ -314,7 +314,7 @@ About Us
                             <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
                                 <div class="single-comment">
                                     <div class="part-img">
-                                        <img src="assets/images/client-4.jpg" alt="image">
+                                        <img src="web/assets/images/client-4.jpg" alt="image">
                                     </div>
                                     <div class="part-txt">
                                         <p>Lorem Ipsu is siply dmmyt pring been text industry standard dummy text ever
@@ -327,7 +327,7 @@ About Us
                             <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
                                 <div class="single-comment">
                                     <div class="part-img">
-                                        <img src="assets/images/client-5.jpg" alt="image">
+                                        <img src="web/assets/images/client-5.jpg" alt="image">
                                     </div>
                                     <div class="part-txt">
                                         <p>Lorem Ipsu is siply dmmyt pring been text industry standard dummy text ever
@@ -340,7 +340,7 @@ About Us
                             <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
                                 <div class="single-comment">
                                     <div class="part-img">
-                                        <img src="assets/images/client-6.jpg" alt="image">
+                                        <img src="web/assets/images/client-6.jpg" alt="image">
                                     </div>
                                     <div class="part-txt">
                                         <p>Lorem Ipsu is siply dmmyt pring been text industry standard dummy text ever
