@@ -7,16 +7,16 @@
                         <ul>
                             <li>
                                 <span><i class="icofont-clock-time"></i></span>
-                                12:05 AM 07:10 PM
+                                {{ $settings['officeTime'] }}
                             </li>
                             <li>
                                 <span><i class="icofont-email"></i></span>
-                                <a href="https://athemeart.dev/cdn-cgi/l/email-protection" class="__cf_email__"
-                                    data-cfemail="234e4a5a4c53634c53574c4d4f4a4d460d4d4657">[email&nbsp;protected]</a>
+                                <a href="mailto:{{ $settings['email'] }}" class="__cf_email__"
+                                    data-cfemail="234e4a5a4c53634c53574c4d4f4a4d460d4d4657">{{ $settings['email'] }}</a>
                             </li>
                             <li>
                                 <span><i class="icofont-google-map"></i></span>
-                                Tampines St 41, Tampines
+                                {{ $settings['officeAddress'] }}
                             </li>
                         </ul>
                     </div>
@@ -36,8 +36,8 @@
                 </div>
                 <div class="col-xl-2 col-lg-2 col-4">
                     <div class="logo">
-                        <a href="#">
-                            <img src="web/assets/images/logo.png" alt="LOGO">
+                        <a href="{{ route('homepage') }}">
+                            <img src="{{ asset('web/assets/images/logo.png') }}" alt="LOGO">
                         </a>
                     </div>
                 </div>
