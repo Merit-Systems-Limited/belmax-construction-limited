@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactsController;
+use App\Http\Controllers\ServicesController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\WebController;
@@ -18,6 +19,7 @@ use App\Http\Controllers\Web\WebController;
 
 Route::get('/', [WebController::class, 'homepage'])->name('homepage');
 Route::get('about-us', [WebController::class, 'about'])->name('about');
+Route::get('services', [ServicesController::class, 'index'])->name('services');
 Route::get('contact-us', [ContactsController::class, 'create'])->name('contact.create');
 Route::post('contact-us', [ContactsController::class, 'store'])->name('contact.store');
 

@@ -53,27 +53,11 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('about') }}">About Us</a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" id="serviceDropdown" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Service
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="serviceDropdown">
-                                        <a class="dropdown-item" href="service.html">Service Page</a>
-                                        <a class="dropdown-item" href="service-details.html">Service Details
-                                            Page</a>
-                                    </div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('services') }}">Services</a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" id="projectDropdown" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Project
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="projectDropdown">
-                                        <a class="dropdown-item" href="project.html">Project Page</a>
-                                        <a class="dropdown-item" href="project-details.html">Project Details
-                                            Page</a>
-                                    </div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('services') }}">Projects</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="pageDropdown" role="button" data-toggle="dropdown"
