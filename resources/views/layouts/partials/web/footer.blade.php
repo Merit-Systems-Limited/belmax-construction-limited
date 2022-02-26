@@ -5,7 +5,7 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="site-info">
                         <div class="logo">
-                            <img src="web/assets/images/logo.png" alt="logo">
+                            <img src="{{ asset('web/assets/images/logo.png') }}" alt="logo">
                         </div>
                         <p>Lorem Ipsum is simply dummy text of the typesetting industry. Lorem Ipsum has been
                             industry's standard dumy.</p>
@@ -82,7 +82,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-6 col-md-6">
-                    <p>Copyright © Montion 2021, All Right Reserved</p>
+                    <p>Copyright &copy; {{ date('Y') }} {{ $settings['companyName'] }}, All Right Reserved</p>
                 </div>
             </div>
         </div>

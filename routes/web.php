@@ -17,6 +17,7 @@ use App\Http\Controllers\Web\WebController;
 */
 
 Route::get('/', [WebController::class, 'homepage'])->name('homepage');
+Route::get('about-us', [WebController::class, 'about'])->name('about');
 Route::get('contact-us', [ContactsController::class, 'create'])->name('contact.create');
 Route::post('contact-us', [ContactsController::class, 'store'])->name('contact.store');
 

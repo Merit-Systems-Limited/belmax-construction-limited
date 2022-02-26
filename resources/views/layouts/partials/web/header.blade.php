@@ -51,7 +51,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About Us</a>
+                                    <a class="nav-link" href="{{ route('about') }}">About Us</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" id="serviceDropdown" role="button"

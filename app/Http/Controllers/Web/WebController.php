@@ -11,4 +11,9 @@ class WebController extends Controller
     {
         return view('web.homepage');
     }
+
+    public function about()
+    {
+        return view('web.about');
+    }
 }
