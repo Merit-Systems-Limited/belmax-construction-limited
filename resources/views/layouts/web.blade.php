@@ -26,10 +26,16 @@
     <link rel="stylesheet" href="{{ asset('web/assets/css/style.css') }}">
     <script async="" src="../../cdn-cgi/challenge-platform/h/g/scripts/invisible.js"></script>
     @yield('styles')
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-
+     alpha/css/bootstrap.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 </head>
 
 <body>
-
+    @include('layouts.partials.notifications')
     <div class="preloader" style="display: none;">
         <div class="loader"><img src="{{ asset('web/assets/images/spinner.gif') }}" alt="image"></div>
     </div>
