@@ -1,11 +1,10 @@
 <?php
 
-use App\Http\Controllers\ContactsController;
-use App\Http\Controllers\ServicesController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\WebController;
 use App\Http\Controllers\ContactsController;
+use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\QuotationsController;
 
 /*
@@ -25,7 +24,7 @@ Route::get('services', [ServicesController::class, 'index'])->name('services');
 Route::get('contact-us', [ContactsController::class, 'create'])->name('contact.create');
 Route::post('contact-us', [ContactsController::class, 'store'])->name('contact.store');
 
-Route::get('quotations', [QuotationsController::class, 'create'])->name('quotations.create');
+Route::get('quotations/create', [QuotationsController::class, 'create'])->name('quotations.create');
 Route::post('quotations', [QuotationsController::class, 'store'])->name('quotations.store');
 Auth::routes();
 
